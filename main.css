@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(61, 99, 61);
+    padding: 16px 0;
+    color: rgb(24, 24, 24);
+}
+
+header h1 {
+    font-family: 'Rubik Maps', system-ui;
+}
+
+header li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+header .container,
+#contact .contact-methods {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container a {
+    color: rgb(24, 24, 24);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#imgcsgo{
+    width: 100%;
+    margin: 0 0;
+    height: 320px;
+    opacity: 70%;
+}
+
+.container #sobre-jogo p,
+.container #como-jogar p {
+    text-align: justify;
+}
+
+.container #sobre-jogo p{
+    margin-right: 8px;
+}
+
+.container #como-jogar p{
+    margin-left: 8px;
+}
+
+.container section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container section h2 {
+    font-family: 'Rubik Maps', system-ui;
+    text-align: center;
+}
+
+.container section p {
+    color:rgb(61, 99, 61);
+}
+
+.social-links li{
+    display: inline;
+}
+
+footer {
+    background-color: rgb(61, 99, 61);
+    padding: 16px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+#contact img {
+    width: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    font-family: 'Rubik Maps', system-ui;
+    font-size: 16px;
+}
+
+#contact h2 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-family: 'Rubik Maps', system-ui;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+#contact {
+    margin-bottom: 16px;
+}
